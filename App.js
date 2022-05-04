@@ -10,6 +10,7 @@ import {
 
 
 import AppLoading from 'expo-app-loading';
+import Item from './src/telas/Cesta/componentes/Item';
 
 
 export default function App() {
@@ -24,7 +25,7 @@ export default function App() {
   }
 
   return (
-    <SafeAreaView >
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar/>
       <Cesta {...mock} />
     </SafeAreaView>
